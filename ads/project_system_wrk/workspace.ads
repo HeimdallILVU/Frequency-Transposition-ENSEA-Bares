@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <ADSWorkspace Revision="28" Version="100">
     <Workspace Name="">
         <LibraryDefs Name="lib.defs" />
@@ -20,6 +21,15 @@
         <Dataset Name="Test_PreFilterUP.ds" />
         <Dataset Name="test_s_param_ampli_LNA.ds" />
         <Dataset Name="Work_low_cost_VCO.ds" />
+        <Data_Files Name="dc_annotation/project_system_lib_%L%N%A_test_1_schematic/annotation_1.xml" />
+        <Data_Files Name="dc_annotation/project_system_lib_%L%N%A_test_1_schematic/annotation_map.xml" />
+        <Data_Files Name="dc_annotation/project_system_lib_test_board_ideal_mixer_schematic/annotation_1.xml" />
+        <Data_Files Name="dc_annotation/project_system_lib_test_board_ideal_mixer_schematic/annotation_map.xml" />
+        <Data_Files Name="dc_annotation/project_system_lib_%Work_low_cost_%V%C%O_schematic/annotation_1.xml" />
+        <Data_Files Name="dc_annotation/project_system_lib_%Work_low_cost_%V%C%O_schematic/annotation_map.xml" />
+        <Data_Files Name="dc_annotation/project_system_lib_test_board_%A%P_schematic/annotation_1.xml" />
+        <Data_Files Name="dc_annotation/project_system_lib_test_board_%A%P_schematic/annotation_map.xml" />
+        <Data_Files Name="Work_low_cost_VCO_data/logFile.txt" />
         <Data_Files Name="test_FilterUP.ds" />
         <Data_Files Name="test_board_ideal_mixer.ds" />
         <Data_Files Name="test_board_AP.ds" />
@@ -115,6 +125,7 @@
         <Folder Name="Full_Module">
             <Cell Name="project_system_lib:Frequency_Transposer" />
             <Data_Display Name="Frequency_Transposer.dds" />
+            <Cell Name="project_system_lib:Frequency_Transposer_Test_Board" />
         </Folder>
         <Folder Name="Component_Models">
             <Cell Name="project_system_lib:Work_low_cost_VCO" />
@@ -147,5 +158,12 @@
         <Dataset Name="TEST_FILTRE_SF150868M4UU0.ds" />
         <Data_Files Name="TEST_FILTRE_SF150868M4UU0.ds" />
         <Data_Files Name="TEST_FILTRE_SF150868M4UU0_data\logFile.txt" />
+        <Log Name="netlist.log" />
+        <Dataset Name="Frequency_Transposer_Test_Board.ds" />
+        <Data_Files Name="Frequency_Transposer_Test_Board.ds" />
+        <Data_Files Name="dc_annotation/project_system_lib_%Frequency_%Transposer_%Test_%Board_schematic/annotation_1.xml" />
+        <Data_Files Name="dc_annotation/project_system_lib_%Frequency_%Transposer_%Test_%Board_schematic/annotation_map.xml" />
+        <Data_Files Name="Frequency_Transposer_Test_Board_data/logFile.txt" />
+        <Data_Display Name="Frequency_Transposer_Test_Board.dds" />
     </Workspace>
 </ADSWorkspace>
