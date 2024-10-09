@@ -1,4 +1,4 @@
-<ADSWorkspace Revision="35" Version="100">
+<ADSWorkspace Revision="36" Version="100">
     <Workspace Name="">
         <LibraryDefs Name="lib.defs" />
         <ConfigFile Name="dds.cfg" />
@@ -105,7 +105,7 @@
             <Cell Name="project_system_lib:Pre-Filter UP" />
         </Folder>
         <Folder Name="Test_Boards">
-            <Cell Name="project_system_lib:LNA_test_4" />
+            <Cell Name="project_system_lib:LNA_test_4" State="1" />
             <Data_Display Name="test_s_param_ampli_LNA.dds" />
             <Cell Name="project_system_lib:test_s_param_ampli_LNA" />
             <Cell Name="project_system_lib:Test_PreFilterUP" />
@@ -124,6 +124,7 @@
             <Cell Name="project_system_lib:LNA_test_1" />
             <Cell Name="project_system_lib:LNA_test_2" />
             <Cell Name="project_system_lib:TEST_LNA" />
+            <Cell Name="project_system_lib:test_board_LNA" />
         </Folder>
         <Folder Name="Full_Module">
             <Cell Name="project_system_lib:Frequency_Transposer" />
@@ -137,6 +138,7 @@
             <Data_Display Name="Work_low_cost_VCO.dds" />
             <Cell Name="project_system_lib:SYMB_Filtre_AFS869S3" />
             <Cell Name="project_system_lib:SYMB_Filtre_SF160868M4UU01" />
+            <Cell Name="project_system_lib:LNA_GRF2070" />
         </Folder>
         <Log Name="netlist.log" />
         <Dataset Name="TEST_FILTRE_SF150868M4UU0.ds" />
@@ -169,5 +171,9 @@
         <Data_Files Name="TEST_FILTRE_AFS_data/logFile.txt" />
         <Data_Files Name="LNA_test_3_data/logFile.txt" />
         <Data_Files Name="LNA_test_1_data/logFile.txt" />
+        <Data_Display Name="test_board_LNA.dds" />
+        <Dataset Name="test_board_LNA.ds" />
+        <Data_Files Name="test_board_LNA_data/logFile.txt" />
+        <Data_Files Name="test_board_LNA.ds" />
     </Workspace>
 </ADSWorkspace>
