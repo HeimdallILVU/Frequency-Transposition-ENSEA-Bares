@@ -132,6 +132,9 @@
             <Cell Name="project_system_lib:Frequency_Transposer_Test_Board" />
             <Data_Display Name="Frequency_Transposer_Test_Board.dds" />
             <Cell Name="project_system_lib:Frequency_Transposer_Transmission_Line" />
+            <Cell Name="project_system_lib:Frequency_Transposer_Test_Board" />
+            <Data_Display Name="Frequency_Transposer_Test_Board.dds" />
+            <Cell Name="project_system_lib:Frequency_Transposer_Transmission_Line" />
         </Folder>
         <Folder Name="Component_Models">
             <Cell Name="project_system_lib:Work_low_cost_VCO" />
@@ -175,5 +178,23 @@
         <Dataset Name="test_board_LNA.ds" />
         <Data_Files Name="test_board_LNA_data/logFile.txt" />
         <Data_Files Name="test_board_LNA.ds" />
+        <Log Name="netlist.log" />
+        <Dataset Name="Frequency_Transposer_Test_Board.ds" />
+        <Data_Files Name="Frequency_Transposer_Test_Board.ds" />
+        <Data_Files Name="dc_annotation/project_system_lib_%Frequency_%Transposer_%Test_%Board_schematic/annotation_1.xml" />
+        <Data_Files Name="dc_annotation/project_system_lib_%Frequency_%Transposer_%Test_%Board_schematic/annotation_map.xml" />
+        <Data_Files Name="Frequency_Transposer_Test_Board_data/logFile.txt" />
+        <Substrate Name="project_system_lib:tech.subst" />
+        <Folder Name="Emilie&apos;s default with Transmission Line">
+            <Cell Name="project_system_lib:Pre-Filter UP Transmission Line" />
+            <Cell Name="project_system_lib:Circulateur IN Transmission Line" />
+            <Cell Name="project_system_lib:Circulateur OUT Transmission Line" />
+            <Cell Name="project_system_lib:PowerAmp Transmission Line" />
+            <Cell Name="project_system_lib:Melangeur UP Transmission Line" />
+            <Cell Name="project_system_lib:Melangeur DOWN Transmission Line" />
+            <Cell Name="project_system_lib:LNA Transmission Line" />
+            <Cell Name="project_system_lib:Filter UP Transmission Line" />
+            <Cell Name="project_system_lib:Filter DOWN Transmission Line" />
+        </Folder>
     </Workspace>
 </ADSWorkspace>
